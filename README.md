@@ -35,3 +35,13 @@ Pure Python implementation of core deep learning operators
 ## Papers
 
 - [[3.1_Paper] Root Mean Square Layer Normalization](<papers/[3.1_Paper] Root Mean Square Layer Normalization.pdf>)
+
+---
+
+## Requirements
+
+numpy>=1.24.0
+torch>=2.1.0
+jupyter>=1.0.0
+matplotlib>=3.7.0
+scipy>=1.11.0

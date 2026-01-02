@@ -1,0 +1,5 @@
+numpy>=1.24.0
+torch>=2.1.0
+jupyter>=1.0.0
+matplotlib>=3.7.0
+scipy>=1.11.0
