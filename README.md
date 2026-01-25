@@ -30,6 +30,9 @@ Pure Python implementation of core deep learning operators
 ### 5. Feed-Forward Networks
 - [SwiGLU](5.FFN/2.7_SwiGLU实现(Pytorch).ipynb) - Swish Gated Linear Unit implementation
 
+### 7. Optimizers
+- [Optimizers Overview](7.Optimzer/README.md) - Gradient Descent, Momentum, Adagrad, RMSProp, Adam implementation and visualization.
+
 ---
 
 ## Papers
