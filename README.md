@@ -27,8 +27,11 @@ Pure Python implementation of core deep learning operators
 ### 4. Attention Mechanisms
 - [Grouped Query Attention](4.Attention/GroupedQueryAttention.py) - GQA: Memory-efficient attention with key/value head sharing
 
-### 5. Feed-Forward Networks
-- [SwiGLU](5.FFN/2.7_SwiGLU实现(Pytorch).ipynb) - Swish Gated Linear Unit implementation
+### 5. Layers
+- [FFN (SwiGLU)](5.Layer/5.1_FFN/2.7_SwiGLU实现(Pytorch).ipynb) - Swish Gated Linear Unit feed-forward network
+- [Embedding](5.Layer/5.2_Embedding实现.py) - Lookup-table embedding (forward + backward) and sinusoidal positional encoding
+- [RNN / LSTM / GRU](5.Layer/5.3_RNN实现.py) - Recurrent layers with PyTorch-compatible weight layout
+- [CNN](5.Layer/5.4_CNN实现.py) - im2col-based Conv2d (stride / padding / dilation), MaxPool2d, AvgPool2d
 
 ### 7. Optimizers
 - [Optimizers Overview](7.Optimzer/README.md) - Gradient Descent, Momentum, Adagrad, RMSProp, Adam implementation and visualization.
