@@ -27,8 +27,11 @@
 ### 4. 注意力机制
 - [分组查询注意力](4.Attention/GroupedQueryAttention.py) - GQA: 通过键值头共享实现的内存高效注意力
 
-### 5. 前馈网络
-- [SwiGLU](5.FFN/2.7_SwiGLU实现(Pytorch).ipynb) - Swish门控线性激活函数实现
+### 5. 网络层
+- [FFN (SwiGLU)](5.Layer/5.1_FFN/2.7_SwiGLU实现(Pytorch).ipynb) - Swish门控线性单元前馈网络
+- [Embedding](5.Layer/5.2_Embedding实现.py) - 查表式词嵌入 (前向 + 反向) 与正弦位置编码
+- [RNN / LSTM / GRU](5.Layer/5.3_RNN实现.py) - 循环层，权重布局与 PyTorch 一致
+- [CNN](5.Layer/5.4_CNN实现.py) - 基于 im2col 的 Conv2d (支持 stride / padding / dilation)、MaxPool2d、AvgPool2d
 
 ---
 
