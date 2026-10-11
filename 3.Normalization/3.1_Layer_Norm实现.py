@@ -1,5 +1,5 @@
 import numpy as np
-def layer_norm(x, gemma, beta, eps=1e-5):
+def layer_norm(x, gamma, beta, eps=1e-5):
     """
     x: 输入向量
     gamma: 可学习的缩放参数 (对应公式里的 γ)
